@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Isabella Andujo">
+  <meta name="description" content="Get in touch with The Snow Den resort. Use our contact form to reach us by email or phone.">
+  <title>Contact Us</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/foz3dju.css">
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.png" alt="The Snow Den logo" width="50" height="50">
+    <h1>The Snow Den</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Accommodations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <img src="images/swiss-valley.jpg" alt="A scenic green, Swiss valley on a sunny day" class="hero-image" width="1440" height="560">
+
+    <section class="centered-hero-text">
+          <h2>Contact Us</h2>
+          <p>If you have any questions, feel free to reach out using the form below or through our contact information. <br> Required fields marked with a *</p>
+    </section>
+    
+    <section>
+        <h2>Contact Form</h2>
+        <div class="contact-flex">
+          <img src="images/swiss-peak.jpg" alt="A view of a Swiss peak covered in snow" class="contact-image" width="350" height="455">
+      
+          <div class="contact-form">
+            <form>
+              <label for="name">Full Name:</label><br>
+              <input type="text" id="name" name="name" required><br><br>
+      
+              <label for="email">Email Address:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+      
+              <label for="phone">Phone Number:</label><br>
+              <input type="tel" id="phone" name="phone"><br><br>
+      
+              <label>Preferred Contact Method:</label><br>
+              <div class="radio-group">
+                <label><input type="radio" name="contactMethod" value="Email" checked> Email</label>
+                <label><input type="radio" name="contactMethod" value="Phone"> Phone</label>
+              </div><br>
+      
+              <label for="comments">Comments:</label><br>
+              <textarea id="comments" name="comments" rows="5"></textarea><br><br>
+      
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      
+
+  </main>
+
+  <footer>
+    <p>Copyright &copy;2023 - The Snow Den</p>
+    <p>This site is for educational purposes only</p>
+</footer>
+
+</body>
+</html>
